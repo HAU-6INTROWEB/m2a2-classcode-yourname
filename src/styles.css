@@ -1,0 +1,19 @@
+/* Module 2 - Activity 2 - Projects grid.
+   Layout only. Fill in the two TODOs by researching the concepts named. */
+
+/* TODO 1: make .projects a GRID whose columns fit automatically and reflow
+   as the window resizes. Research: display:grid, grid-template-columns,
+   repeat(), minmax(), auto-fit. Add a gap from your spacing scale. */
+.projects {
+  /* your grid rules here */
+}
+
+/* TODO 2: make a .card stack its contents vertically with a gap.
+   Research: display:flex, flex-direction, gap. */
+.card {
+  /* your flex rules here */
+}
+
+.card-img {
+  width: 100%;
+}

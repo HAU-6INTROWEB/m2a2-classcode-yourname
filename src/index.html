@@ -1,0 +1,46 @@
+<!-- Module 2 - Activity 2 - Your Portfolio: The Projects Grid
+
+  The projects section is a grid of cards that ALL SHARE ONE STRUCTURE. That
+  shared structure is a COMPONENT, and with no framework your component is a
+  CSS CLASS: write the ".card" rule ONCE and every card matches it.
+
+  Below is ONE finished card, marked as your reusable unit. Do NOT rebuild it.
+
+  1. COPY the .card block so you have at least THREE projects (4-6 is better).
+     Every copy keeps class="card" - they all share the one rule.
+  2. Keep the cards inside <section class="projects"> (already here).
+  3. In styles.css, turn .projects into a responsive GRID that reflows columns
+     on its own as the window resizes (no media query needed).
+  4. Make .card a vertical flex container so its contents stack neatly.
+
+  Research: CSS Grid (grid container, the columns template, repeating tracks,
+  min/max track sizes, auto-fit) and using flexbox INSIDE a card.
+  The component IS the .card class - never copy-paste CSS per card. Delete this
+  comment once the grid reflows cleanly at different widths.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Portfolio - Projects</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="projects">
+        <h2>Projects</h2>
+
+        <!-- ===== REUSABLE UNIT: copy this whole .card block per project ===== -->
+        <article class="card">
+          <img class="card-img" src="" alt="" />
+          <h3 class="card-title">Project Title</h3>
+          <p class="card-meta">Role · Year</p>
+          <p class="card-desc">One line about what this project is.</p>
+          <a class="card-link" href="#">View</a>
+        </article>
+        <!-- ===== end reusable unit ===== -->
+
+      </section>
+    </main>
+  </body>
+</html>
