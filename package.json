@@ -9,5 +9,7 @@
   "devDependencies": {
     "jsdom": "^24.0.0",
     "vitest": "^2.0.0"
-  }
+  },
+  "author": "Tjakoen Stolk",
+  "license": "MIT"
 }
